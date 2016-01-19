@@ -1,0 +1,33 @@
+CAP5705 – Homework 3
+Due November 12, 2014
+1 Curve Modeling
+Design a user interface so that the user can input several control points. Then design a cubic C
+1
+B´ezier curve from the control points. Input enough control points to have at least two segments.
+Draw the curve using:
+• The blending functions or matrix form. 10pt
+• The de Casteljau’s algorithm. 20pt
+• The OpenGL API: OpenGL supports B´ezier curves through evaluators that compute Bernstein
+polynomials for different values of the curve parameter. Learn about glMap1f and
+glEvalCoord1f methods and use them for drawing the specified curve. 20pt
+• Subdivision: Allow the user to step through the subdivision process for several levels. You
+may use OpenGL for drawing lines or your own line drawing algorithm. 30pt
+• Bonus Draw a B´ezier surface patch using glMap2f. +10pt
+Create a (PDF) report on the results of each method discussed above. Explore and discuss what
+happens when a control point is repeated (e.g., P0 = P1). Also comment on the advantages and
+disadvantages each approach. Include images of at least two different configurations of control points
+and show how each method renders the curve. 20pt
+2 Acknowledgments
+If you are using resources for any part of the homework (including ideas, source code and images),
+make sure to include proper citation and clear acknowledgments in your report.
+Submission Guidelines
+Submit to E-learning site a single file as a .zip or a .tar.gz bundle
+that contains all the files to be submitted. Include the source codes for
+your programs in the submission bundle. Please include a ‘README’
+file that clearly explains how to run and test the program. Also include
+a ‘Makefile’ that compiles and links the program from the source
+files. Please make sure your program compiles/runs in the CISE linux
+machines.
+Late submissions are penalized by 10% of the grade for each day past
+the due date.
+1
